@@ -5,3 +5,120 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #376700;
+    height: 100px;
+}
+
+.main{
+    margin: auto;
+    width: 95%;
+    text-align: center;
+}
+
+.navBtn{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffe100;
+    transition: all 0.2s ease;
+}
+
+.navBtn:hover{
+    scale: 1.1;
+    color: #f5eba1;
+    cursor: pointer;
+}
+
+.clubsListContainer {
+    text-align: center;
+}
+
+.clubBox {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    height: 500px;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    overflow-y: auto;
+    background-color: white;
+    scale: 1;
+    transition: all 0.15s ease;
+}
+
+.clubBox p{color: gray;}
+
+.clubBox:hover{
+    background-color: rgb(244, 248, 241);
+    scale: 1.02;
+}
+
+.clubBox:active{
+    background-color: rgb(208, 217, 202);
+    scale: 0.98;
+}
+
+#clubSearchContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#clubSearchContainer button{
+    width: 25px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 7px;
+    scale: 1;
+    background-color: white;
+    transition: all 0.15s ease;
+}
+
+#clubSearchContainer button:hover{
+    scale: 0.95;
+    background-color: rgba(255, 0, 0, 0.16);
+}
+
+#clubSearchContainer button:active{
+    scale: 0.90;
+    background-color: rgba(255, 0, 0, 0.457);
+}
+
+#clubSearchInput{
+    border-radius: 7px;
+    border: 1px solid gray;
+    padding: 5px;
+    
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #37670042;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{background-color: #376700a2;}
+
+::-webkit-scrollbar-thumb:active{background-color: #376700df;}
+
+::-webkit-scrollbar-track {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+}
